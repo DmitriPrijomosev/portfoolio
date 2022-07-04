@@ -3,6 +3,9 @@ import background from "./img/DSC3656.jpg";
 import naturavita from "./img/N350x350.png";
 import cofesso from "./img/coffesso2.png";
 import richard from "./img/R350x350.png";
+import hyson from "./img/H350x350.png";
+import thurson from "./img/T350x350.png";
+import mayski from "./img/M350x350.png";
 
 function App() {
   return (
@@ -35,6 +38,23 @@ function App() {
 			  <div className='main-link'>
 				  <img src={richard} />
 				  <p className='text'>Richard</p>
+
+			  </div>
+		  </div>
+		  <div className='main-link-list-2'>
+			  <div className='main-link'>
+				  <img src={hyson} />
+				  <p className='text'>Hyson</p>
+
+			  </div>
+			  <div className='main-link'>
+				  <img src={thurson} />
+				  <p className='text'>Thyrson</p>
+
+			  </div>
+			  <div className='main-link'>
+				  <img src={mayski} />
+				  <p className='text'>Mayski</p>
 
 			  </div>
 		  </div>
